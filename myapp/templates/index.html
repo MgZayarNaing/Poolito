@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %} 
+
+<!--********************************
+			Start Main Content
+	  ******************************** -->
+        <!-- Hero Area -->
+        <section class="vs-hero vs-hero-style2" data-wow-delay="0.25s" aria-hidden="true">
+            <div class="vs-hero__item2 style2" data-bg-src="{% static 'assets/img/bg/hero-bg-3.jpg' %}">
+              <div class="container">
+                  <div class="row justify-content-start align-items-center">
+                      <div class="col-lg-7 position-relative">
+                          <div class="vs-hero__content">
+                              <div class="vs-hero__subtitle wow animate__fadeInUp" data-wow-delay="0.60s"><span class="icon"><img src="{% static 'assets/img/icon/satisfaction-icon.svg' %}" alt="Hero Icon"></span>100% Satisfaction </div>
+                              <h1 class="vs-hero__title wow animate__fadeInUp" data-wow-delay="0.70s">House <span class="vs-hero__title--highlight">Cleaning</span> Solutions</h1>
+                              <p class="vs-hero__text wow animate__fadeInUp" data-wow-delay="0.80s">always been so professional in handling our teams.</p>
+                              <div class="hero-btn wow animate__fadeInUp" data-wow-delay="0.90s">
+                                  <a class="vs-btn2" href="index.html">Get Pricing<i class="far fa-long-arrow-right"></i></a>
+                                  <a href="https://www.youtube.com/watch?v=moYayPRgaY0" class="play-btn popup-video">
+                                      <i class="fas fa-play"></i>
+                                  </a>
+                              </div>
+                          </div>  
+                          <span class="shape-mockup hero-shep2 moving d-none d-xl-block" style="left: -120px; bottom: -40%;"><img src="{% static 'assets/img/shapes/clean1.png' %}" alt="hero element"></span>
+                      </div>
+                  </div>
+                  <span class="shape-mockup hero-shep5 spin d-none d-md-block" style="right: 20%; top: 90px;"><img src="{% static 'assets/img/shapes/circle-1.png' %}" alt="hero element"></span>
+              </div>
+            </div>
+            <div class="bubbles">
+              <div class="bubble"></div>
+              <div class="bubble"></div>
+              <div class="bubble"></div>
+              <div class="bubble"></div>
+              <div class="bubble"></div>
+              <div class="bubble"></div>
+              <div class="bubble"></div>
+              <div class="bubble"></div>
+              <div class="bubble"></div>
+              <div class="bubble"></div>
+            </div>
+          <span class="shape-mockup d-xl-block d-none wow animate__fadeInLeft" style="left: 50px; bottom: 60px;"><img src="{% static 'assets/img/shapes/hero-sheap3.png' %}" alt="Hero element"></span>
+          <span class="shape-mockup d-xl-block d-none wow animate__fadeInRight" style="right: 0px; bottom: 0px;"><img src="{% static 'assets/img/shapes/hero-shep4.png' %}" alt="Hero element"></span>
+        </section>
+        <!-- Hero Area End -->
+
+{% endblock %}
